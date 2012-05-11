@@ -1,5 +1,0 @@
-<componentPackage>
-	<component id="DummyRoot" class="DummyRoot"/>
-	<component id="ModelFile" class="model.ModelFile"/>
-	<component id="ViewFile" class="view.ViewFile"/>
-</componentPackage>
