@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project 
+	name="ExampleProject_BuildFile" 
+	basedir=".."
+	default="run.manifestgenerator.task">
+	
+	<taskdef
+		name="manifestGenerator" 
+		classname="com.adobe.ac.manifestGenerator.ant.ManifestGeneratorTask"
+		classpath="../manifest-generator-ant-task/target/manifest-generator-ant-task-1.0-jar-with-dependencies.jar"/>
+
+	<target name="run.manifestgenerator.task">
+		<manifestGenerator
+			sourcePath="${basedir}/flex_src/"
+			manifestFilePath="${basedir}/build/manifest.xml"/>
+	</target>
+
+</project>

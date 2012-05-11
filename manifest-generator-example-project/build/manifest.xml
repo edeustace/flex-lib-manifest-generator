@@ -1,0 +1,8 @@
+<componentPackage>
+	<component id="SameNameModel" class="com.model.one.SameNameModel"/>
+	<component id="AnotherModell" class="com.model.two.AnotherModell"/>
+	<component id="FlavourModel" class="com.model.two.FlavourModel"/>
+	<component id="GameModel" class="com.model.two.GameModel"/>
+	<component id="FlavourModelTwo" class="com.model.two.three.FlavourModelTwo"/>
+	<component id="ThreeGameModel" class="com.model.two.three.ThreeGameModel"/>
+</componentPackage>
