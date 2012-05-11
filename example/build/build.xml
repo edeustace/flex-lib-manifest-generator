@@ -7,7 +7,7 @@
 	<taskdef
 		name="manifestGenerator" 
 		classname="com.adobe.ac.manifestGenerator.ant.ManifestGeneratorTask"
-		classpath="../manifest-generator-ant-task/target/manifest-generator-ant-task-1.0-jar-with-dependencies.jar"/>
+		classpath="../ant-task/target/manifest-generator-ant-task-1.0-SNAPSHOT-jar-with-dependencies.jar"/>
 
 	<target name="run.manifestgenerator.task">
 		<manifestGenerator
